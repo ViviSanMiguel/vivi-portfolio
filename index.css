@@ -25,6 +25,9 @@ padding-top:0px;
 .curriculum {
     align-self: flex-end;
 }
+.curriculum:hover{
+    opacity: 0.5;
+}
 body {
     font-family: "Sansita";   
 }
@@ -45,8 +48,14 @@ body {
     margin:0 30px;
 }
 
+.img-logo {
+    width: 50px
+}
+
 .mimenu {
     width: 100%;
+    position: fixed;
+    background: black;
 }
 .menu-container{
   display: flex;
@@ -58,6 +67,7 @@ margin: 0 auto;
 }
 
 .menu-container a {
+    color: white;
     text-decoration: none;
 }
 
@@ -274,5 +284,17 @@ font-family: 'Roboto Condensed', sans-serif; */
 }
 
 .redes img {
-    width: 30%;
+    width: 10%;
+}
+.contactme  {
+    display: flex;
+    flex-direction: column;
+
+}
+.contact2{
+    display: flex;
+    justify-content: center;
+}
+.contact2 img {
+    width: 10%
 }
